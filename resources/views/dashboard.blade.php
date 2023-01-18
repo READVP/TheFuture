@@ -19,15 +19,15 @@
                     <p class="phwaarde">
                     <table>
                         <tr>
-                            <th class="date"> Datum </th>
+                            <th class="meting"> Meting </th>
                             <th class="waarde"> Waarde </th>
-                            <th class="location"> Locatie </th>
+                            <th class="percentage"> Percentage </th>
                         </tr>
                         @foreach($data as $key => $value)
                             <tr>
-                                <td>{{$value->date}}</td>
+                                <td>{{$value->meting}}</td>
                                 <td>{{$value->waarde}}</td>
-                                <td>{{$value->locatie}}</td>
+                                <td>{{$value->percentage}}</td>
                             </tr>
                         @endforeach
                     </table>

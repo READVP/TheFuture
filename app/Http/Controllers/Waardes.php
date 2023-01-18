@@ -8,7 +8,7 @@ use DB;
 class Waardes extends Controller {
 
     public function view() {
-        $data = DB::table('waardes')->get();
+        $data = DB::table('sensor_1')->get();
         return view('dashboard', ['data' => $data]);
     }
 }

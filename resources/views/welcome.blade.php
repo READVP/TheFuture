@@ -4,15 +4,53 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-    <title>theFuturel</title>
+    <title>theFuture</title>
 </head>
-
 <style>
     * {
         margin: 0;
         padding: 0;
         background-color: #f8f9fa!important;
+    }
+
+    .banner {
+        display: block;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .banner1 {
+        width: 100vw;
+    }
+
+    .banner2 {
+        display: block;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: 50px;
+        width: 50%;
+    }
+
+    .content1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content1p {
+        font-size: 35px;
+        text-align: center;
+        display: block;
+        margin: auto 20px;
+
+    }
+
+    .btext {
+        text-align: center;
     }
 
     a {
@@ -28,6 +66,7 @@
     .navbar-brand {
         width: 40px;
     }
+
 </style>
 <body class="body1">
 <nav class="navbar navbar-light bg-light">
@@ -44,8 +83,26 @@
         </svg> Login
     </a>
 </nav>
-<div>
-    <img src="../public/image/e_sdg-goals_icons-individual-rgb-14.png">
+
+<div class="content2">
+    <img src="../image/pexels-saad-alaiyadhi-13010769-2.jpg" class="banner1">
+    <h1 class="btext">Life Below Water</h1>
+</div>
+
+<div class="content1">
+    <img src="../image/pexels-brandon-morrison-990344.jpg" class="banner">
+    <div class="content1p">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+    </div>
+</div>
+
+<div class="content1">
+    <div class="content1p">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+    </div>
+    <img src="../image/pexels-james-wheeler-3555988.jpg" class="banner2">
+</div>
+
 </div>
 </body>
 </html>
